@@ -1,77 +1,63 @@
-# DeepSecrets Official Package Repository
+# Project Repository
 
+Welcome to the official package repository of DeepSecrets Ltd.
 
-Welcome to the Official Package Repository of DeepSecrets! This repository hosts a curated collection of custom packages designed for use with various terminals, including Termux, Linux, Ubuntu, and FreeBSD. Developed by DeepSecrets Ltd, a brand under DeepSecrets Foundation, these packages aim to enhance cyber security, technology, Tor, and more.
+## Overview
 
+This repository contains various packages and commands developed by DeepSecrets Ltd for use in terminal environments.
 
-## How to Use
+## Usage
 
-### For Termux:
+### Using Termux
 
-1. **Add the Repository**:
-   ```
-   pkg install wget
-   wget https://github.com/DeepSecretsLtd/Project-Repository/raw/main/deepsecrets.list -P $PREFIX/etc/apt/sources.list.d/
-   ```
+To access the repository in Termux, follow these steps:
 
-2. **Update Package Lists**:
-   ```
-   pkg update
-   ```
+1. Install Termux on your Android device from the [Termux App Git](https://github.com/termux/termux-app).
 
-3. **Install Packages**:
-   ```
-   pkg install package-name
+2. Open Termux and run the following command to clone the repository:
+
+   ```bash
+   git clone https://github.com/DeepSecretsLtd/Project-Repository
    ```
 
-### For Other Terminals (Linux, Ubuntu, FreeBSD):
+3. Navigate to the cloned repository:
 
-1. **Clone the Repository**:
-   ```
-   git clone https://github.com/DeepSecretsLtd/Project-Repository.git
-   ```
-
-2. **Navigate to the Repository Directory**:
-   ```
+   ```bash
    cd Project-Repository
    ```
 
-3. **Install Packages**:
+4. Run the `repo-info.sh` script to access repository information:
+
+   ```bash
+   ./repo-info.sh repository
    ```
-   ./install.sh package-name
+
+### Using Other Terminals (Linux, Ubuntu, FreeBSD)
+
+To access the repository in other terminal environments, follow similar steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/DeepSecretsLtd/Project-Repository
    ```
 
-## Usage Guidelines
+2. Navigate to the cloned repository:
 
+   ```bash
+   cd Project-Repository
+   ```
 
-- All rights are reserved by DeepSecrets Ltd. No part of this repository may be reproduced, distributed, or used in any form without prior written permission.
-- For inquiries or permission requests, please contact us at: [Issue Tracker](https://github.com/DeepSecretsLtd/Project-Repository/issues).
+3. Run the `repo-info.sh` script to access repository information:
 
-
-## How to Provide Feedback
-
-If you encounter any issues, have questions, or would like to provide feedback, please open an issue on the [issue tracker](https://github.com/DeepSecretsLtd/Project-Repository/issues). We welcome your input and strive to address any concerns or suggestions promptly.
-
-### Reporting Issues
-
-If you encounter a bug or unexpected behavior with any of the packages in this repository, please follow these steps to report it:
-
-1. Navigate to the [issue tracker](https://github.com/DeepSecretsLtd/Project-Repository/issues).
-2. Click on the "New Issue" button.
-3. Provide a descriptive title and detailed description of the issue, including any relevant information such as error messages or steps to reproduce the problem.
-4. Click "Submit new issue" to create the issue.
-
-Thank you for helping us improve the DeepSecrets Official Package Repository!
-
-
-## Contributing
-
-
-- Contributions to this repository are currently not accepted.
-
+   ```bash
+   ./repo-info.sh repository
+   ```
 
 ## License
 
+All rights reserved (DeepSecrets Ltd a brand of DeepSecrets Foundation). Users are allowed to read and use the contents of this repository but are not allowed to copy, fork, redistribute it by their own name or editing it.
 
-- This repository is provided without a specific license. All rights are reserved by DeepSecrets Ltd.
+For any inquiries or issues, please [submit an issue](https://github.com/DeepSecretsLtd/Project-Repository/issues).
 
+© 2024 DeepSecrets Ltd. All Rights Reserved.
