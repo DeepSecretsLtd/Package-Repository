@@ -9,4 +9,8 @@
   "license": "All Rights Reserved",
   "installation_instructions": "To install packages, run './repo-info.sh package <package-name>'",
   "dependencies": ["N/A"]
+  "name": "DeepSecrets Ltd",
+    "description": "A Cybersecurity and Technology Organization",
+    "founder": "Not Yet Disclosed",
+    "philosophy": "The organization is guided by the philosophy, beliefs, and ideologies of its founder, who is also the leader and master."
 }
