@@ -1,0 +1,12 @@
+// data/repository.json
+{
+  "name": "Project-Repository",
+  "description": "Official Package Repository of DeepSecrets Ltd",
+  "url": "https://github.com/DeepSecretsLtd/Project-Repository",
+  "version": "1.0.0",
+  "maintainer": "DeepSecrets Foundation",
+  "contributors": ["None"],
+  "license": "All Rights Reserved",
+  "installation_instructions": "To install packages, run './repo-info.sh package <package-name>'",
+  "dependencies": ["N/A"]
+}
