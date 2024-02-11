@@ -1,11 +1,11 @@
 #!/bin/bash
 
+# Define the path to the data folder
+DATA_FOLDER="data"
+
 # Define the repository owner and name
 OWNER="DeepSecretsLtd"
 REPO="Project-Repository"
-
-# Define the path to the data folder
-DATA_FOLDER="data"
 
 # Function to display repository information
 display_repository_info() {
@@ -13,6 +13,17 @@ display_repository_info() {
     echo "Repository: $(jq -r '.name' $REPO_DATA)"
     echo "Description: $(jq -r '.description' $REPO_DATA)"
     echo "URL: $(jq -r '.url' $REPO_DATA)"
+    echo "Version: $(jq -r '.version' $REPO_DATA)"
+    echo "Maintainer: $(jq -r '.maintainer' $REPO_DATA)"
+    echo "Contributors: $(jq -r '.contributors | join(", ")' $REPO_DATA)"
+    echo "License: $(jq -r '.license' $REPO_DATA)"
+    echo "Installation Instructions: $(jq -r '.installation_instructions' $REPO_DATA)"
+    echo "Dependencies: $(jq -r '.dependencies | join(", ")' $REPO_DATA)"
+    echo "Organization Info:"
+    echo "  Name: $(jq -r '.organization_info.name' $REPO_DATA)"
+    echo "  Description: $(jq -r '.organization_info.description' $REPO_DATA)"
+    echo "  Founder: $(jq -r '.organization_info.founder' $REPO_DATA)"
+    echo "  Philosophy: $(jq -r '.organization_info.philosophy' $REPO_DATA)"
 }
 
 # Function to display package information
