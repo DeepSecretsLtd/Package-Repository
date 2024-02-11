@@ -1,0 +1,15 @@
+// data/commands.json
+{
+  "command1": {
+    "name": "tcommand1",
+    "help": "Help information for command1",
+    "usage": "Usage: command1 [options]",
+    "options": ["-f, --file <file>", "Specify input file"]
+  },
+  "command2": {
+    "name": "tcommand2",
+    "help": "Help information for command2",
+    "usage": "Usage: command2 [options]",
+    "options": ["-o, --output <file>", "Specify output file"]
+  }
+}
