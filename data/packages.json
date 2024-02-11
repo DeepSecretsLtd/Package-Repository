@@ -1,0 +1,19 @@
+// data/packages.json
+{
+  "package1": {
+    "name": "test1",
+    "description": "Description for test1",
+    "version": "0.0.1",
+    "maintainer": "Tester John",
+    "installation_instructions": "Run './repo-info.sh package test1'",
+    "dependencies": ["N/A"]
+  },
+  "package2": {
+    "name": "test2",
+    "description": "Description for package2",
+    "version": "0.0.1",
+    "maintainer": "Tester Abrahm with Turkey Sandwich Lincoln",
+    "installation_instructions": "Run './repo-info.sh package test2'",
+    "dependencies": ["N/A"]
+  }
+}
